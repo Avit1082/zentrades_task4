@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background: #222222;
+    display: flex;
+    font-family: sans-serif;
+}
+.main{
+    margin: auto;
+    /* margin-bottom: 10px; */
+    width: 500px;
+    /* height: 1000px; */
+    max-width: 90%;
+}
+.main .error{
+    color: red;
+}
+.main form{
+    width: 100%;
+    height: 100%;
+    max-width: 500px;
+    padding: 20px;
+    background: black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.main form img{
+    /* padding-top: 4cm; */
+    align-self: center;
+    margin-bottom: 1px;
+    margin-left: 10%;
+    height: 100%;
+    max-width: 80%;
+}
+/* .main form div{
+    margin: auto;
+} */
+.main form .form{
+    width: 70%;
+    height: 40px;
+    align-items: center;
+    background: white;
+    border-radius: 7px;
+    margin: 10px 0 0 15%;
+    padding: 0 10px;
+}
+.main form .btn{
+    width: 70%;
+    height: 40px;
+    align-items: center;
+    background: white;
+    border-radius: 10px;
+    margin: 20px 0 20px 15%;
+    padding: 0 10px;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    background: #71bd58;
+}
+#forgotPasswordLink{
+    /* width: 50%; */
+    margin-left: 35%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #989898;
+    text-decoration: underline;
+}

@@ -1,0 +1,47 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #e7e7e7 ;
+    height: 100vh;
+}
+
+
+.row {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: -10px;
+    margin-bottom: -5px;
+}
+
+.card {
+    width: 25%;
+    height: 80px;
+    border-left: 7px solid #47bf9b;
+    background-color: white;
+    margin: 10px;
+    line-height: 40px;
+}
+.card div{
+    padding:0 0 0 15px;
+}
+.section2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.graph{
+    max-width: 100%;
+    height: 500px;
+    width: 600px;
+    height: auto;
+    forced-color-adjust: black;
+}
+.graph canvas{
+    background: white;
+    color: black;
+}
